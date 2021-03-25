@@ -8,7 +8,7 @@
         <script>
 
             $(document).ready(function(){
-                $.get("https://randomuser.me/api/?results=20", function(res) {
+                $.get("https://api.sportradar.us/nfl/official/trial/v5/en/games/2019/reg/schedule.xml?api_key={xa9b88wt2u2xt5ehu9wd4tdw}", function(res) {
                     console.log(res);
                     var html_name = [];
                     var html_age = [];
